@@ -7,7 +7,7 @@ The task itself is in task.txt
  docker build -t telega_app . && docker run -d --env-file=./.env telega_app
 ```
 ### To test
-The bot is available **now** at @BinanceNotificator_bot . Use **/sub** to get notifications about price changes.
+The bot sould be available at @BinanceNotificator_bot . Use **/sub** to get notifications about price changes.
 And use **/stop** to unsubscribe.
 ### Key points:
 1. I used websockets.
